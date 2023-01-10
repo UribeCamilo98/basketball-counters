@@ -9,19 +9,22 @@
 </head>
 <body>
     <div class="scoreboard">
-        <p>HOME</p>
-        <div id="home" class="score">0</div>
-        <button onclick="addOneHome()">+1</button>
-        <button onclick="addTwoHome()">+2</button>
-        <button onclick="addThreeHome()">+3</button>
+        <div>
+            <p>HOME</p>
+            <div id="home" class="score">0</div>
+            <button onclick="addOneHome()">+1</button>
+            <button onclick="addTwoHome()">+2</button>
+            <button onclick="addThreeHome()">+3</button>
+        </div>
+        <div>
+            <p>GUEST</p>
+            <div id="guest" class="score">0</div>
+            <button onclick="addOneGuest()">+1</button>
+            <button onclick="addTwoGuest()">+2</button>
+            <button onclick="addThreeGuest()">+3</button>
+        </div>
     </div>
-    <div class="scoreboard">
-        <p>GUEST</p>
-        <div id="guest" class="score">0</div>
-        <button>+1</button>
-        <button>+2</button>
-        <button>+3</button>
-    </div>
+    <button class="center" onclick="reset()">RESET</button>
     <script src="index.js">innerText</script>
 </body>
 </html>

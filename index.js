@@ -32,3 +32,40 @@ function addThreeHome(){
         homeEl.textContent = homeScore;
     }
 }
+
+function addOneGuest(){
+    guestScore += 1;
+    if(guestScore>99){
+        guestScore=0;
+        guestEl.textContent=guestScore;
+    }else{
+        guestEl.textContent = guestScore;
+    }
+}
+
+function addTwoGuest(){
+    guestScore += 2;
+    if(guestScore>99){
+        guestScore=0;
+        guestEl.textContent=guestScore;
+    }else{
+        guestEl.textContent = guestScore;
+    }
+}
+
+function addThreeGuest(){
+    guestScore += 3;
+    if(guestScore>99){
+        guestScore=0;
+        guestEl.textContent=guestScore;
+    }else{
+        guestEl.textContent = guestScore;
+    }
+}
+
+function reset(){
+    homeScore=0;
+    guestScore=0;
+    guestEl.textContent=guestScore;
+    homeEl.textContent=homeScore;
+}

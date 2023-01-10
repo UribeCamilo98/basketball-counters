@@ -8,9 +8,8 @@ body{
     color: #ffffff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
-    display: flex;
-    justify-content: space-around;
     margin: 100px;
+    align-items: center;
 }
 
 button{
@@ -44,4 +43,13 @@ p{
     text-align: center;
     padding-left: auto;
     padding-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.center{
+    display: block;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
 }
