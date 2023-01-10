@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="home" class="scoreboard">
+    <div class="scoreboard">
         <p>HOME</p>
-        <div class="score">0</div>
-        <button>+1</button>
-        <button>+2</button>
-        <button>+3</button>
+        <div id="home" class="score">0</div>
+        <button onclick="addOneHome()">+1</button>
+        <button onclick="addTwoHome()">+2</button>
+        <button onclick="addThreeHome()">+3</button>
     </div>
-    <div id="guest" class="scoreboard">
+    <div class="scoreboard">
         <p>GUEST</p>
-        <div class="score">0</div>
+        <div id="guest" class="score">0</div>
         <button>+1</button>
         <button>+2</button>
         <button>+3</button>
     </div>
+    <script src="index.js">innerText</script>
 </body>
 </html>
