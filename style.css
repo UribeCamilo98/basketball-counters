@@ -1,3 +1,8 @@
+@font-face {
+    font-family:Crashed Scoreboard;
+    src: url(fonts/Crashed\ Scoreboard.ttf);
+}
+
 body{
     background-color: #19244D ;
     color: #ffffff;
@@ -27,10 +32,12 @@ p{
     width: 180px;
     margin: none;
     padding-top: 10%;
+    padding-bottom: 10%;
     border-radius: 10%;
     text-align: center;
     color: #ff0000;
-    font-size: 70px;
+    font-family: Crashed Scoreboard;
+    font-size: 90px;
 }
 
 .scoreboard{
